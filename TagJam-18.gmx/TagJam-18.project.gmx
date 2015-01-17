@@ -39,7 +39,10 @@
     <object>objects\Crosshairs</object>
     <object>objects\Bullet_Object</object>
     <object>objects\Zombie1_obj</object>
+    <object>objects\zombie2_obj</object>
     <object>objects\Zombie_Spawner_East_side</object>
+    <object>objects\Zombie_Spawner_South_Side</object>
+    <object>objects\Create_Kill_Count</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
