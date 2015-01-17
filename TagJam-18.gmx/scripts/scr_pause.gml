@@ -11,7 +11,7 @@ switch (mpos)
     }
     case 2:
     {
-        room_goto(room0)
+        room_restart();
         break;
     }
     case 3:
