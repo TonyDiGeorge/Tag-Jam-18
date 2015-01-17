@@ -106,7 +106,7 @@ else if (keyboard_check(ord("D")))
 else if (mouse_check_button(mb_left))
 {
     sprite_index = Slim_Throwing;
-    image_speed = 0.2
+    image_speed = 0.1
 }
 else
 {
