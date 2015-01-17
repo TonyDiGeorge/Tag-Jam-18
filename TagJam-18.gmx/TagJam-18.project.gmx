@@ -13,12 +13,12 @@
     <sprite>sprites\Mouse_Cursur</sprite>
     <sprite>sprites\Slim_Walking</sprite>
     <sprite>sprites\Slim_Idol</sprite>
+    <sprite>sprites\Slim_Throwing</sprite>
     <sprite>sprites\Bullet_Sprite</sprite>
     <sprite>sprites\Level_Sprite</sprite>
     <sprite>sprites\Bottle</sprite>
     <sprite>sprites\Zombie_1</sprite>
     <sprite>sprites\sprite11</sprite>
-    <sprite>sprites\Slim_Throwing</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
@@ -38,7 +38,12 @@
     <object>objects\Pause_Object</object>
     <object>objects\Crosshairs</object>
     <object>objects\Bullet_Object</object>
+    <object>objects\Zombie1_obj</object>
+    <object>objects\Zombie_Spawner_East_side</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline0</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\Initialize</room>
     <room>rooms\Title_Room</room>
