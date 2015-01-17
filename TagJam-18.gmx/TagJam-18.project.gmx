@@ -31,7 +31,6 @@
   <objects name="objects">
     <object>objects\Head_object</object>
     <object>objects\Menu_Object</object>
-    <object>objects\object4</object>
     <object>objects\Pause_Object</object>
     <object>objects\Crosshairs</object>
     <object>objects\Bullet_Object</object>
