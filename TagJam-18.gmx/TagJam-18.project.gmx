@@ -19,6 +19,7 @@
     <sprite>sprites\Bottle</sprite>
     <sprite>sprites\Zombie_1</sprite>
     <sprite>sprites\sprite11</sprite>
+    <sprite>sprites\health_sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
@@ -43,6 +44,7 @@
     <object>objects\Zombie_Spawner_East_side</object>
     <object>objects\Zombie_Spawner_South_Side</object>
     <object>objects\Create_Kill_Count</object>
+    <object>objects\obj_health</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
@@ -51,6 +53,7 @@
     <room>rooms\Initialize</room>
     <room>rooms\Title_Room</room>
     <room>rooms\room0</room>
+    <room>rooms\room3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
