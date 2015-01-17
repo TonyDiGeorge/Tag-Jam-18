@@ -8,9 +8,32 @@
   <sprites name="sprites">
     <sprite>sprites\Prototype_head</sprite>
     <sprite>sprites\prototype_body</sprite>
+    <sprite>sprites\Menu_sprite</sprite>
+    <sprite>sprites\Cursur</sprite>
+    <sprite>sprites\Mouse_Cursur</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Menu_Background_Prototype</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_pause.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\Title_Font</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\Head_object</object>
+    <object>objects\Menu_Object</object>
+    <object>objects\Pause_Object</object>
+    <object>objects\object6</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Initialize</room>
+    <room>rooms\Title_Room</room>
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
