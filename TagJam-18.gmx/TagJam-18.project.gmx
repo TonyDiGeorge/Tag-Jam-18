@@ -13,9 +13,12 @@
     <sprite>sprites\Mouse_Cursur</sprite>
     <sprite>sprites\Slim_Walking</sprite>
     <sprite>sprites\Slim_Idol</sprite>
+    <sprite>sprites\Bullet_Sprite</sprite>
+    <sprite>sprites\Level_Sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
+    <background>background\Level_Background</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -28,8 +31,10 @@
   <objects name="objects">
     <object>objects\Head_object</object>
     <object>objects\Menu_Object</object>
+    <object>objects\object4</object>
     <object>objects\Pause_Object</object>
-    <object>objects\object6</object>
+    <object>objects\Crosshairs</object>
+    <object>objects\Bullet_Object</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Initialize</room>
