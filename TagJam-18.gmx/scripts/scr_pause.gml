@@ -11,11 +11,12 @@ switch (mpos)
     }
     case 2:
     {
+        room_goto(room0)
         break;
     }
     case 3:
     {
-        game_end ();
+        game_restart ();
         break;
     }
     default:

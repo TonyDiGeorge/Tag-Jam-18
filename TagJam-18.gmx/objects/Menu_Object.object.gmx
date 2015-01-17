@@ -94,7 +94,7 @@ if (push == 1) scr_menu();
           <argument>
             <kind>1</kind>
             <string>draw_set_halign(fa_left);
-draw_set_valign(fa_middle);
+draw_set_valign(fa_top);
 draw_set_font(Title_Font);
 draw_set_color(c_white);
 
