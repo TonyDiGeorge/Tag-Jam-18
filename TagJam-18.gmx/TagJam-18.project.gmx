@@ -17,6 +17,8 @@
     <sprite>sprites\Level_Sprite</sprite>
     <sprite>sprites\Bottle</sprite>
     <sprite>sprites\Zombie_1</sprite>
+    <sprite>sprites\sprite11</sprite>
+    <sprite>sprites\Slim_Throwing</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
