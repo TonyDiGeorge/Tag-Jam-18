@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>  sprite_index = Zombie_1;
-  image_speed = 0.2
+  image_speed = 0.2;
+  image_angle = point_direction(x,y,Head_object.x,Head_object.y);
 </string>
           </argument>
         </arguments>
