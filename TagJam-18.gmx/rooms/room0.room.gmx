@@ -60,7 +60,7 @@ if keyboard_check(vk_left) direction+=120/fps</code>
   </views>
   <instances>
     <instance objName="Head_object" x="288" y="192" name="inst_9CD92740" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Crosshairs" x="96" y="160" name="inst_B5A7EE92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="96" y="160" name="inst_B5A7EE92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
