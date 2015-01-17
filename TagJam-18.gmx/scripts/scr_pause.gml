@@ -11,8 +11,15 @@ switch (mpos)
     }
     case 2:
     {
+     game_restart();
+        break;
+       
+    }
+    case 3: 
+    {
         game_end ();
         break;
+    
     }
     default:
     {
