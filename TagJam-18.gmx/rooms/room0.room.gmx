@@ -6,14 +6,11 @@
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
-  <speed>40</speed>
-  <persistent>-1</persistent>
+  <speed>30</speed>
+  <persistent>0</persistent>
   <colour>32768</colour>
   <showcolour>-1</showcolour>
-  <code>if debug_mode
-   {
-   draw_text(32, 32, "FPS = " + string(fps));
-   }
+  <code>room_caption = string(fps);
    
    //dividing with 0 crashes the game
 if fps=0 exit;
