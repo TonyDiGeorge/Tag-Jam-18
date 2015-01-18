@@ -50,6 +50,11 @@
     <object>objects\Zombie_Spawner_South_Side</object>
     <object>objects\Create_Kill_Count</object>
     <object>objects\obj_health</object>
+    <object>objects\Stool_Object</object>
+    <object>objects\Bar_Rug</object>
+    <object>objects\Bar_Chair</object>
+    <object>objects\Table</object>
+    <object>objects\Bar</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
