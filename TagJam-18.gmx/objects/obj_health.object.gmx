@@ -47,11 +47,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>x</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>448</string>
+            <string>y</string>
           </argument>
           <argument>
             <kind>5</kind>
