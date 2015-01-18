@@ -29,7 +29,6 @@
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
     <background>background\Level_Background</background>
-    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
