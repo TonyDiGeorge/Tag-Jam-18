@@ -51,6 +51,7 @@
   </views>
   <instances>
     <instance objName="Menu_Object" x="0" y="224" name="inst_24EE6C71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Main_Menn_Musiic" x="64" y="96" name="inst_1C3A36CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

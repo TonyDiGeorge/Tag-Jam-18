@@ -7,17 +7,16 @@ switch (mpos)
     }
     case 1:
     {
+        room_goto_previous();
         break;
     }
     case 2:
     {
+             game_end ();
         break;
+    
     }
-    case 3:
-    {
-        game_end ();
-        break;
-    }
+   
     default:
     {
         break;

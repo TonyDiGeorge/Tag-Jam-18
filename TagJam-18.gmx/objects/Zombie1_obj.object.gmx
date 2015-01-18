@@ -110,6 +110,32 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="Table">
+      <action>
+        <libid>1</libid>
+        <id>101</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>000000000</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="zombie2_obj">
       <action>
         <libid>1</libid>
@@ -127,7 +153,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(Zombie1_obj) &gt; 0)
+            <string>if (distance_to_object(zombie2_obj) &gt; 0)
     {
     move_towards_point(Head_object.x,Head_object.y,3);
     }

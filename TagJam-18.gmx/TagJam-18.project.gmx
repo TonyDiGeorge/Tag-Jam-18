@@ -4,7 +4,14 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\Main_Menu_Music</sound>
+    <sound>sound\sound0</sound>
+    <sound>sound\Death_Music</sound>
+    <sound>sound\Player_Hit</sound>
+    <sound>sound\Zombie___hit</sound>
+    <sound>sound\Power_up</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\Prototype_head</sprite>
     <sprite>sprites\prototype_body</sprite>
@@ -29,6 +36,7 @@
     <sprite>sprites\Vodka_Sprite</sprite>
     <sprite>sprites\Abethindsaf__Sprite</sprite>
     <sprite>sprites\Beer_sprite</sprite>
+    <sprite>sprites\sprite23</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
@@ -38,6 +46,8 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\Death_menu.gml</script>
+    <script>scripts\Highscore_Room_scr.gml</script>
     <script>scripts\scr_pause.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -46,12 +56,15 @@
   <objects name="objects">
     <object>objects\Head_object</object>
     <object>objects\Menu_Object</object>
+    <object>objects\Death_object</object>
+    <object>objects\Highscore_room</object>
     <object>objects\Pause_Object</object>
     <object>objects\Crosshairs</object>
     <object>objects\Bullet_Object</object>
     <object>objects\Zombie1_obj</object>
     <object>objects\zombie2_obj</object>
-    <object>objects\Zombie_Spawner_East_side</object>
+    <object>objects\Zombie_Spawner_West</object>
+    <object>objects\object22</object>
     <object>objects\Zombie_Spawner_South_Side</object>
     <object>objects\Create_Kill_Count</object>
     <object>objects\obj_health</object>
@@ -61,6 +74,11 @@
     <object>objects\Table</object>
     <object>objects\Bar</object>
     <object>objects\Highscore</object>
+    <object>objects\in_game_music</object>
+    <object>objects\Main_Menn_Musiic</object>
+    <object>objects\Death_Musiic</object>
+    <object>objects\invisl_wall</object>
+    <object>objects\Draw_Not_Ready_Yet_sorry</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
@@ -70,6 +88,7 @@
     <room>rooms\Title_Room</room>
     <room>rooms\room0</room>
     <room>rooms\room3</room>
+    <room>rooms\Highscores</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
