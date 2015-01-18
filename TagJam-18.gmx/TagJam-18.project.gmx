@@ -45,6 +45,7 @@
     <object>objects\Zombie_Spawner_South_Side</object>
     <object>objects\Create_Kill_Count</object>
     <object>objects\obj_health</object>
+    <object>objects\zombie_avoid_obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
