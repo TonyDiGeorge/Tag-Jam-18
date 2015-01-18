@@ -29,6 +29,7 @@
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
     <background>background\Level_Background</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -50,6 +51,7 @@
     <object>objects\Zombie_Spawner_South_Side</object>
     <object>objects\Create_Kill_Count</object>
     <object>objects\obj_health</object>
+    <object>objects\object11</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
