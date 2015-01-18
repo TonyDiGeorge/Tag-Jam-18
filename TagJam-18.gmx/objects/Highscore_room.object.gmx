@@ -25,9 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>menu[0] = "Start";
-menu[1] = "Reset dis funki beat?";
-menu[2] = "Quit";
+            <string>menu[0] = "Main Menu";
 
 
 
@@ -69,7 +67,7 @@ if (move != 0)
 
 var push;
 push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_shift),keyboard_check_released(vk_space), 0);
-if (push == 1) scr_menu();
+if (push == 1) Highscore_Room_scr();
 
 
 </string>

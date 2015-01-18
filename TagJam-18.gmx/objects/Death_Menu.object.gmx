@@ -26,10 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>menu[0] = "Start";
-menu[1] = "Reset dis funki beat?";
-menu[2] = "Quit";
-
-
+menu[1] = "Highscores";
+menu[2] = "Options";
+menu[3] = "Quit";
 
 space = 64;
 mpos = 0;
