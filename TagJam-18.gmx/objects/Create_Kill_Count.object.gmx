@@ -45,15 +45,15 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>x + 10</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>y</string>
           </argument>
           <argument>
             <kind>1</kind>
-            <string>Kill Count: </string>
+            <string>Kill Count:</string>
           </argument>
         </arguments>
       </action>
