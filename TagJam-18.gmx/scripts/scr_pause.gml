@@ -11,7 +11,7 @@ switch (mpos)
     }
     case 2:
     {
-        room_restart();
+         game_restart ();
         break;
     }
     case 3:

@@ -141,10 +141,12 @@ draw_sprite(sprite_index, 0, x + 16, y + mpos * space);
             <kind>1</kind>
             <string>if (global.pause == 0)
 {
+
     global.pause = 1;
 }
 else
 {
+
     global.pause = 0;
 }
 
