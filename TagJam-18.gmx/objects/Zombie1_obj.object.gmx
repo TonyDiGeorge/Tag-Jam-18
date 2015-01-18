@@ -108,6 +108,38 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="zombie2_obj">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (distance_to_object(zombie2_obj) &gt; 0)
+    {
+    move_towards_point(Head_object.x,Head_object.y,3);
+    }
+else
+    {
+    direction = point_direction(x,y,Head_object.x,Zombie1_obj.y) + 180;
+    move_random(point_direction(zombie2_obj.x, zombie2_obj.y, x, y), 2);
+    speed = 5;
+    }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="Zombie1_obj">
       <action>
         <libid>1</libid>
@@ -132,7 +164,7 @@
 else
     {
     direction = point_direction(x,y,Head_object.x,Zombie1_obj.y) + 180;
-    motion_add(point_direction(Zombie1_obj.x, Zombie1_obj.y, x, y), 2);
+    move_random(point_direction(Zombie1_obj.x, Zombie1_obj.y, x, y), 2);
     speed = 5;
     }
 </string>

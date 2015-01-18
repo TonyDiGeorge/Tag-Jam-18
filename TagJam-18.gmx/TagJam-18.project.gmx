@@ -21,14 +21,11 @@
     <sprite>sprites\sprite11</sprite>
     <sprite>sprites\health_sprite</sprite>
     <sprite>sprites\Bar_Sprite</sprite>
-    <sprite>sprites\Table_Sprite</sprite>
-    <sprite>sprites\Bar_Chair_Sprite</sprite>
-    <sprite>sprites\Bar_Rug_Sprite</sprite>
-    <sprite>sprites\Stool_Sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
     <background>background\Level_Background</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -55,6 +52,7 @@
     <object>objects\Bar_Chair</object>
     <object>objects\Table</object>
     <object>objects\Bar</object>
+    <object>objects\Draw_Highscorre</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
