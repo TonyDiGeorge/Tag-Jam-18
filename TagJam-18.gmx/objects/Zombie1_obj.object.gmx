@@ -125,16 +125,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(Zombie1_obj) &gt; 0)
-    {
-    move_towards_point(Head_object.x,Head_object.y,3);
-    }
-else
-    {
-    direction = point_direction(x,y, Zombie1_obj.x,Zombie1_obj.y) + 180;
-    move_random(point_direction(Zombie1_obj.x, Zombie1_obj.y, x, y), 2);
-    speed = 5;
-    }
+            <string>motion_add(point_direction(x,y,character.x,character.y),random(1))
+if distance_to_object(enemy)&lt;32
+then direction+=180;
 </string>
           </argument>
         </arguments>
