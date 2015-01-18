@@ -45,11 +45,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>x + 10</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>y</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>1</kind>
