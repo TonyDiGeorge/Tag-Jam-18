@@ -131,8 +131,8 @@
     }
 else
     {
-    direction = point_direction(x,y,Head_object.x,Zombie1_obj.y) + 180;
-    motion_add(point_direction(Zombie1_obj.x, Zombie1_obj.y, x, y), 2);
+    direction = point_direction(x,y, Zombie1_obj.x,Zombie1_obj.y) + 180;
+    move_random(point_direction(Zombie1_obj.x, Zombie1_obj.y, x, y), 2);
     speed = 5;
     }
 </string>
