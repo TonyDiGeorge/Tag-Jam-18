@@ -25,6 +25,10 @@
     <sprite>sprites\Rug_Sprite</sprite>
     <sprite>sprites\Stool_Sprite</sprite>
     <sprite>sprites\Table_Sprite</sprite>
+    <sprite>sprites\Wiskey_sprite</sprite>
+    <sprite>sprites\Vodka_Sprite</sprite>
+    <sprite>sprites\Abethindsaf__Sprite</sprite>
+    <sprite>sprites\Beer_sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
@@ -56,6 +60,7 @@
     <object>objects\Bar_Chair</object>
     <object>objects\Table</object>
     <object>objects\Bar</object>
+    <object>objects\Highscore</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
