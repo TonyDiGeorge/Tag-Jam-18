@@ -25,7 +25,6 @@
     <sprite>sprites\Bar_Chair_Sprite</sprite>
     <sprite>sprites\Bar_Rug_Sprite</sprite>
     <sprite>sprites\Stool_Sprite</sprite>
-    <sprite>sprites\Slim_Hurt</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu_Background_Prototype</background>
