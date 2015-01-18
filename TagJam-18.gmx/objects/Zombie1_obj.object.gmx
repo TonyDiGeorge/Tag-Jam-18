@@ -125,11 +125,6 @@
         <arguments>
           <argument>
             <kind>1</kind>
-<<<<<<< HEAD
-            <string>motion_add(point_direction(x,y,character.x,character.y),random(1))
-if distance_to_object(enemy)&lt;32
-then direction+=180;
-=======
             <string>if (distance_to_object(Zombie1_obj) &gt; 0)
     {
     move_towards_point(Head_object.x,Head_object.y,3);
@@ -140,7 +135,6 @@ else
     motion_add(point_direction(Zombie1_obj.x, Zombie1_obj.y, x, y), 2);
     speed = 5;
     }
->>>>>>> parent of 78f21fc... Fix fix fixed
 </string>
           </argument>
         </arguments>
