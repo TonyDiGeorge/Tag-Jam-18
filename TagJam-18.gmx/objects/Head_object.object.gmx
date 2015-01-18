@@ -25,9 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>canShoot = true;
+            <string>shotfrequency_normal = 30;
+shotfrequency_whiskey = 10;
+shotfrequency_beer = 1;
+shotfrequency = shotfrequency_normal
 
-hp = -3;
+movespeed_normal = 2;
+movespeed_whiskey = 1;
+movespeed_vodka = 3;
+movespeed = movespeed_normal
 </string>
           </argument>
         </arguments>
@@ -77,6 +83,31 @@ hp = -3;
           <argument>
             <kind>0</kind>
             <string>false</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>shotfrequency =  shotfrequency_normal
+movespeed = movespeed_normal
+
+</string>
           </argument>
         </arguments>
       </action>
@@ -150,7 +181,7 @@ hp = -3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>canShoot = true; //now you can shoot again if the mouse button is pressed
+            <string>instance_create(x,y,Bullet_Object);
 </string>
           </argument>
         </arguments>
@@ -183,25 +214,25 @@ image_angle = point_direction(x,y,mouse_x,mouse_y)
 
 if (keyboard_check(ord("W")))
 {
-    y -= 3;
+    y -= movespeed + 1;
     sprite_index = Slim_Walking;
     image_speed = 0.2;
 }
 else if (keyboard_check(ord("S")))
 {
-    y += 3;
+    y += movespeed + 1;
     sprite_index = Slim_Walking;
     image_speed = 0.2;
 }
 else if (keyboard_check(ord("A")))
 {
-    x -= 3;
+    x -= movespeed + 1;
     sprite_index = Slim_Walking;
     image_speed = 0.2;
 }
 else if (keyboard_check(ord("D")))
 {
-    x += 3;
+    x += movespeed + 1;
     sprite_index = Slim_Walking;
     image_speed = 0.2;
 }
@@ -216,6 +247,13 @@ else
     image_speed = 1;
 }
 
+if (mouse_check_button(mb_left))
+{
+    if (alarm[0] = -1) 
+    {
+    alarm[0] = shotfrequency;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -652,7 +690,7 @@ else
             <kind>1</kind>
             <string>if (global.pause) exit;
 
-y -= 1
+y -= movespeed - 1
 </string>
           </argument>
         </arguments>
@@ -677,7 +715,7 @@ y -= 1
             <kind>1</kind>
             <string>if (global.pause) exit;
 
-y += 1
+y += movespeed - 1
 </string>
           </argument>
         </arguments>
@@ -702,7 +740,7 @@ y += 1
             <kind>1</kind>
             <string>if (global.pause) exit;
 
-x += 2
+x += movespeed
 </string>
           </argument>
         </arguments>
@@ -727,44 +765,7 @@ x += 2
             <kind>1</kind>
             <string>if (global.pause) exit;
 
-x -= 2
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="6" enumb="50">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (global.pause) exit;
-
-//Mouse Throwing
-
-if (mouse_check_button(mb_left))
-{
-    if canShoot
-    {
-    canShoot = false
-    instance_create(x,y,Bullet_Object);
-    alarm[0] = 30;  //set alarm 0 to 15 steps, so if your game speed is 30, that is half a second
-    }
-}
-
-
+x -= movespeed
 </string>
           </argument>
         </arguments>
