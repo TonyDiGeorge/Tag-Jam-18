@@ -40,13 +40,10 @@
     <font>fonts\Title_Font</font>
   </fonts>
   <objects name="objects">
-    <object>objects\Head_object</object>
     <object>objects\Menu_Object</object>
     <object>objects\Pause_Object</object>
     <object>objects\Crosshairs</object>
     <object>objects\Bullet_Object</object>
-    <object>objects\Zombie1_obj</object>
-    <object>objects\zombie2_obj</object>
     <object>objects\Zombie_Spawner_East_side</object>
     <object>objects\Zombie_Spawner_South_Side</object>
     <object>objects\Create_Kill_Count</object>
@@ -56,6 +53,11 @@
     <object>objects\Bar_Chair</object>
     <object>objects\Table</object>
     <object>objects\Bar</object>
+    <objects name="Player">
+      <object>objects\Head_object</object>
+      <object>objects\Zombie1_obj</object>
+      <object>objects\zombie2_obj</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
