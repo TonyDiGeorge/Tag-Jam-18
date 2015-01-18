@@ -67,7 +67,6 @@ if keyboard_check(vk_left) direction+=120/fps</code>
     <instance objName="Zombie_Spawner_South_Side" x="288" y="416" name="inst_3DDCDE18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Create_Kill_Count" x="0" y="0" name="inst_5DAE1568" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_health" x="480" y="0" name="inst_47B679E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="zombie_avoid_obj" x="288" y="-64" name="inst_810CEA52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

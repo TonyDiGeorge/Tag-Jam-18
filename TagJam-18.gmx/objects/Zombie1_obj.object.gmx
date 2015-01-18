@@ -4,7 +4,7 @@
   <solid>-1</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -131,11 +131,9 @@
     }
 else
     {
-    var pdir;
-pdir = point_direction(other.x, other.y, x, y);
-motion_add(pdir, other.speed);
-if speed &gt; 8 speed = 8;
-    speed = .5;
+    direction = point_direction(x,y,Head_object.x,Zombie1_obj.y) + 180;
+    motion_add(point_direction(Zombie1_obj.x, Zombie1_obj.y, x, y), 2);
+    speed = 5;
     }
 </string>
           </argument>
